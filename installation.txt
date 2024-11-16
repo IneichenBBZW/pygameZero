@@ -1,0 +1,13 @@
+Öffnen Sie PowerShell und navigieren Sie zum Verzeichnis in dem Sie das PygameZero.zip entpackt haben.
+Dort müssten die Dateien installation.txt, requirements.txt und der Ordner 02-SimpleBrian sein.
+Im Terminal die Befehle nach dem $ eingeben:
+$ python -m venv venv
+$ venv/Scripts/activate
+
+Abhängigkeiten für Pygame Zero müssen Sie installieren:
+$ pip install -r requirements.txt
+
+Ins Verzeichnis navigieren:
+$ cd 01-Racing
+Danach das Spiel starten:
+$ pgzrun brian.py
